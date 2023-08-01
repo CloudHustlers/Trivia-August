@@ -1,1 +1,15 @@
 # Trivia-August
+©️ CodingWithHardik<br>
+**[NOTE]** Give credit when you use my code in your videos or share this code to someone.<br>
+If lab not working contact me on [Instagram @hardikgupta.social](https://www.instagram.com/hardikgupta.social/)<br>
+**Labs :**           
+| S.NO | LAB NUMBER | LAB NAME | LAB STATUS | LAST CHECKED | SOLUTION STATUS |
+|------|------------|----------|------------|--------------|-----------------|
+|  01  | GSP064 | Cloud IAM: Qwik Start | WORKING FINE ✅ | 01-08-2023 3:39 PM | UPLOADED |
+|  02  | GSP089 | Cloud Monitoring: Qwik Start | WORKING FINE ✅ | 01-08-2023 4:28 PM | UPLOADED |
+|  03  | GSP080 | Cloud Functions: Qwik Start - Command Line | WORKING FINE ✅ | 01-08-2023 8:59 PM | UPLOADED |
+|  04  | GSP290 | ETL Processing on Google Cloud Using Dataflow and BigQuery | NOT CHECKED ❌ | NO ETA | NOT UPLOADED |
+|  05  | GSP910 | Connect and Configure Data for your AppSheet App | NOT CHECKED ❌ | NO ETA | NOT UPLOADED |
+|  06  | GSP1030 | Publish your AppSheet App | NOT CHECKED ❌ | NO ETA | NOT UPLOADED |
+|  07  | GSP421 | APIs Explorer: Cloud Storage | NOT CHECKED ❌ | NO ETA | NOT UPLOADED |
+|  08  | GSP297 | Google Cloud Storage - Bucket Lock | NOT CHECKED ❌ | NO ETA | NOT UPLOADED |
