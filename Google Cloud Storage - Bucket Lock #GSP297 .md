@@ -1,6 +1,10 @@
 # GSP297
 ## Run in cloudshell
 ```cmd
+export REGION=
+```
+```cmd
+gcloud config set compute/region $REGION
 export BUCKET=$(gcloud config get-value project)
 gsutil mb "gs://$BUCKET"
 gsutil retention set 10s "gs://$BUCKET"
