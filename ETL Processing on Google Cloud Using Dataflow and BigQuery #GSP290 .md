@@ -25,7 +25,6 @@ python dataflow_python_examples/data_ingestion.py \
   --temp_location gs://$PROJECT/test \
   --input gs://$PROJECT/data_files/head_usa_names.csv \
   --save_main_session
-
 python dataflow_python_examples/data_transformation.py \
   --project=$PROJECT \
   --region=$REGION \
@@ -34,7 +33,6 @@ python dataflow_python_examples/data_transformation.py \
   --temp_location gs://$PROJECT/test \
   --input gs://$PROJECT/data_files/head_usa_names.csv \
   --save_main_session
-
 sed -i "s/values = \[x.decode('utf8') for x in csv_row\]/values = \[x for x in csv_row\]/" ./dataflow_python_examples/data_enrichment.py
 python dataflow_python_examples/data_enrichment.py \
   --project=$PROJECT \
@@ -44,7 +42,6 @@ python dataflow_python_examples/data_enrichment.py \
   --temp_location gs://$PROJECT/test \
   --input gs://$PROJECT/data_files/head_usa_names.csv \
   --save_main_session
-
 python dataflow_python_examples/data_lake_to_mart.py \
   --worker_disk_type="compute.googleapis.com/projects//zones//diskTypes/pd-ssd" \
   --max_num_workers=4 \
